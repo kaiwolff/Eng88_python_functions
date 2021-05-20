@@ -62,4 +62,4 @@ print(divide(2,2))
 
 def percentage(amount, total):
     return amount*100/total
-    ```
+```
