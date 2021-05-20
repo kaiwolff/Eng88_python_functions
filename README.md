@@ -31,3 +31,35 @@ def greeting_user():
 
 print(greeting_user())
 ```
+
+### Working on functions that take arguments
+
+```#creatign a function that takes two arguments as integers
+
+def add(value1, value2):
+    return value1 + value2
+
+#while this function was designed for integers, it could also take floats or strings
+print(add(1.5, 1))
+
+def subtract(value1, value2):
+    return value1 - value2
+
+print(subtract(3,2))
+
+#activity: create multiply and divide functions
+
+def multiply(value1, value2):
+    return value1 * value2
+
+def divide(value1, value2):
+    return value1 / value2
+
+print(multiply(2,2))
+print(divide(2,2))
+
+#exercise: give percentage
+
+def percentage(amount, total):
+    return amount*100/total
+    ```
