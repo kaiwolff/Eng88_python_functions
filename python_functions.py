@@ -46,3 +46,10 @@ def divide(value1, value2):
 
 print(multiply(2,2))
 print(divide(2,2))
+
+#exercise: give percentage
+
+def percentage(amount, total):
+    return amount*100/total
+
+print(percentage(5,10))
